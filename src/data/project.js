@@ -1,0 +1,41 @@
+export const projects = [
+  {
+    id: 1,
+    title: "HR Dashboard",
+    description: "A full HR management system for employee and leave tracking.",
+    features: [
+      "Employee management system",
+      "Leave approval workflow",
+      "Dynamic leave calculations",
+      "Global state with Context API",
+    ],
+    tech: ["React", "Context API", "React Router"],
+    github: "https://github.com/Ihiechi/hr-dashboard",
+    live: "https://hr-dashboard-three-gamma.vercel.app/",
+    image: "/images/hr-dashboard.png",
+  },
+  {
+    id: 2,
+    title: "Weather App",
+    description: "Real-time weather app with API integration.",
+    features: ["City search", "Live weather data", "Dynamic UI updates"],
+    tech: ["React", "API", "JavaScript"],
+    github: "https://github.com/Ihiechi/react-weather",
+    live: "https://react-weather-iota-liard.vercel.app/",
+    image: "/images/hr-dashboard.png",
+  },
+  {
+    id: 3,
+    title: "Password Generator",
+    description: "Customizable secure password generator.",
+    features: [
+      "Adjustable length",
+      "Include/exclude characters",
+      "Copy to clipboard",
+    ],
+    tech: ["React", "JavaScript"],
+    github: "https://github.com/Ihiechi/password-generator",
+    live: "https://password-generator-kohl-omega-70.vercel.app/",
+    image: "/images/hr-dashboard.png",
+  },
+];
