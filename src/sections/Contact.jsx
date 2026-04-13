@@ -62,6 +62,9 @@ export default function Contact() {
             <p className="mb-3 text-gray-700">
               📧 Email: ihechibethel5@gmail.com
             </p>
+             <p className="mb-3 text-gray-700">
+             ☎️ Phone number: +49 1639070469
+            </p>
             <p className="mb-3 text-gray-700">🌍 Location: Berlin, Germany</p>
           </div>
 
