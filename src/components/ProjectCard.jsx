@@ -48,7 +48,7 @@ export default function ({ project }) {
             target="_blank"
             className="text-green-600 hover:underline"
           >
-            Live
+            Live Link
           </a>
         </div>
       )}

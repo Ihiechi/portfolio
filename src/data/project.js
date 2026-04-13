@@ -21,7 +21,7 @@ export const projects = [
     features: ["City search", "Live weather data", "Dynamic UI updates"],
     tech: ["React", "API", "JavaScript"],
     github: "https://github.com/Ihiechi/react-weather",
-    live: "https://react-weather-iota-liard.vercel.app/",
+    live: "https://react-weather-xi3t.vercel.app/",
     image: "/images/hr-dashboard.png",
   },
   {
