@@ -11,19 +11,19 @@ export default function Navbar() {
         <div className="hidden md:flex space-x-6">
           <a
             href="#projects"
-            className="hover:text-blue-600 text-blue-600 transition-colors"
+            className="hover:text-blue-600 text-blue-600 font-bold transition-colors"
           >
             Projects
           </a>
           <a
             href="#skills"
-            className="hover:text-blue-600 text-blue-600 transition-colors"
+            className="hover:text-blue-600 text-blue-600 font-bold transition-colors"
           >
             Skills
           </a>
           <a
             href="#contact"
-            className="hover:text-blue-600 text-blue-600 transition-colors"
+            className="hover:text-blue-600 text-blue-600 font-bold transition-colors"
           >
             Contact
           </a>
