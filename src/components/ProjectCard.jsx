@@ -3,6 +3,11 @@ import React from "react";
 export default function ({ project }) {
   return (
     <div className="border rounded-xl p-6 shadow-md hover:shadow-lg bg-white bg-slate-100">
+      <div className="w-full h-48 overflow-y-auto rounded-lg">
+        <a href={project.live} rel="noopener noreferrer" target="_blank">
+          <img src={project.image} alt={project.title} className="w-full " />
+        </a>
+      </div>
       <h2 className="text-xl font-bold mb-2">{project.title}</h2>
       <p className="text-gray-700 mb-4">{project.description}</p>
       {/* Features */}

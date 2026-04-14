@@ -1,3 +1,6 @@
+import hrDashboardImg from "../assets/hrdashboard.png";
+import weatherAppImg from "../assets/weatherapp.png";
+import passwordGenImg from "../assets/passwordgenerator.png";
 export const projects = [
   {
     id: 1,
@@ -12,7 +15,7 @@ export const projects = [
     tech: ["React", "Context API", "React Router"],
     github: "https://github.com/Ihiechi/hr-dashboard",
     live: "https://hr-dashboard-three-gamma.vercel.app/",
-    image: "/images/hr-dashboard.png",
+    image: hrDashboardImg,
   },
   {
     id: 2,
@@ -22,7 +25,7 @@ export const projects = [
     tech: ["React", "API", "JavaScript"],
     github: "https://github.com/Ihiechi/react-weather",
     live: "https://react-weather-xi3t.vercel.app/",
-    image: "/images/hr-dashboard.png",
+    image: weatherAppImg,
   },
   {
     id: 3,
@@ -36,6 +39,6 @@ export const projects = [
     tech: ["React", "JavaScript"],
     github: "https://github.com/Ihiechi/password-generator",
     live: "https://password-generator-kohl-omega-70.vercel.app/",
-    image: "/images/hr-dashboard.png",
+    image: passwordGenImg,
   },
 ];
