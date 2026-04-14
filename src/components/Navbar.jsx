@@ -29,8 +29,9 @@ export default function Navbar() {
           </a>
         </div>
         <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)}></button>
-          {isOpen ? <FiX /> : <FiMenu />}
+          <button onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <FiX /> : <FiMenu />}
+          </button>
         </div>
       </div>
       {isOpen && (
