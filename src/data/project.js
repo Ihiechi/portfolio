@@ -1,6 +1,7 @@
 import hrDashboardImg from "../assets/hrdashboard.png";
 import weatherAppImg from "../assets/weatherapp.png";
 import passwordGenImg from "../assets/passwordgenerator.png";
+import taskManagerImg from "../assets/taskmanager.png";
 export const projects = [
   {
     id: 1,
@@ -40,5 +41,21 @@ export const projects = [
     github: "https://github.com/Ihiechi/password-generator",
     live: "https://password-generator-kohl-omega-70.vercel.app/",
     image: passwordGenImg,
+  },
+  {
+    id: 4,
+    title: "Task Manager App",
+    description: " Task management tool",
+    features: [
+      "Built with React and Firebase",
+      "User authentication (login/signup)",
+      "CRUD operations with Firestore",
+      "Task filtering and priority system",
+      "Responsive UI using Tailwind CSS",
+    ],
+    tech: ["React", "JavaScript", "Tailwind", "Firebase"],
+    github: "",
+    live: "https://react-taskmanager-blue.vercel.app/",
+    image: taskManagerImg,
   },
 ];
